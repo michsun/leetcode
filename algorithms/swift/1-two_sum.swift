@@ -1,8 +1,4 @@
-/*
-Link: https://leetcode.com/problems/two-sum/
-
-Time Complexity: O(n)
-*/
+// https://leetcode.com/problems/two-sum/
 
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -16,9 +12,3 @@ class Solution {
         return [Int]()
     }
 }
-
-
-var nums = [1, 3, 5, 11]
-var target = 8
-var sol = Solution().twoSum(nums, target)
-print(sol)

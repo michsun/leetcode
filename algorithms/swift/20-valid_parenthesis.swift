@@ -1,7 +1,4 @@
-/*
-Link: https://leetcode.com/problems/valid-parentheses/
-
-*/
+// https://leetcode.com/problems/valid-parentheses/
 
 class Solution {
     func isValid(_ s: String) -> Bool {

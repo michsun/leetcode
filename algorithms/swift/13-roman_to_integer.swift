@@ -1,7 +1,4 @@
-/*
-Link: https://leetcode.com/problems/roman-to-integer/
-
-*/
+// https://leetcode.com/problems/roman-to-integer/
 
 class Solution {
     func romanToInt(_ s: String) -> Int {
