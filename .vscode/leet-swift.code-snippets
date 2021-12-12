@@ -1,0 +1,13 @@
+{
+	"LeetCode Swift Template": {
+		"prefix": "leetswift",
+		"scope": "swift",
+		"body": [
+		  "// ${1:leetcode_link}",
+		  "",
+		  "$0",
+		  ""
+		],
+		"description": "LeetCode Swift Template"
+	  }
+}

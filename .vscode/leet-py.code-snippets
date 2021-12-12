@@ -1,0 +1,13 @@
+{
+	"LeetCode Python Template": {
+		"prefix": "leetpy",
+		"scope": "python",
+		"body": [
+		  "# ${1:leetcode_link}",
+		  "",
+		  "$0",
+		  ""
+		],
+		"description": "LeetCode Python Template"
+	  }
+}

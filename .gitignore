@@ -1,3 +1,4 @@
 .pytest_cache/*
-.vscode/*
+.vscode/settings.json
+templates/*
 a.out
