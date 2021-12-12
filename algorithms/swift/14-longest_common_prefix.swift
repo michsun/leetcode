@@ -1,7 +1,4 @@
-/*
-Link: https://leetcode.com/problems/longest-common-prefix/
-
-*/
+// https://leetcode.com/problems/longest-common-prefix/
 
 class Solution {
     func longestCommonPrefix(_ strs: [String]) -> String {

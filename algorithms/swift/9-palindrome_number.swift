@@ -1,7 +1,4 @@
-/*
-Link: https://leetcode.com/problems/palindrome-number/
-
-*/
+// https://leetcode.com/problems/palindrome-number/
 
 class Solution {
     func isPalindrome(_ x: Int) -> Bool {
