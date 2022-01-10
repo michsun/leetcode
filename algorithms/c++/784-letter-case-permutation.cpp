@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Recursive backtracking solution - DFS
 class Solution {
 public:
     void backtrack(vector<string>& sol, string& s, int& n, string permutation, int pos) {
