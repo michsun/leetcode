@@ -5,6 +5,7 @@ using namespace std;
 
 class Solution {
 public:
+    // Hashset solution
     int singleNumber(vector<int>& nums) {
         unordered_set<int> set;
         for (int i = 0; i < nums.size(); i++) {
@@ -16,6 +17,14 @@ public:
             }
         }
         return *(set.begin());
+    }
+
+    // Bit manipulation solution
+    int singleNumber(vector<int>& nums) {
+        int sol = 0;
+        for (int i = 0; i < nums.size(); i++)
+            sol ^= nums[i];
+        return sol;
     }
 };
 
