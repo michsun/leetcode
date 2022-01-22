@@ -1,4 +1,9 @@
-.pytest_cache/*
+# Python
+pytest_cache/*
+
+# VSCode
 .vscode/settings.json
+
+# Folders and files
 templates/*
 a.out
