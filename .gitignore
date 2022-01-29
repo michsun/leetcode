@@ -5,5 +5,7 @@ pytest_cache/*
 .vscode/settings.json
 
 # Folders and files
+.DS_Store
+*/DS_Store
 templates/*
 a.out
