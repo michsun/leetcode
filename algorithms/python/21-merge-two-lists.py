@@ -15,7 +15,6 @@ class Solution(object):
         :type list2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        if list1 is None: return list2
         if list2 is None: return list1
         
         newHead = ListNode()
