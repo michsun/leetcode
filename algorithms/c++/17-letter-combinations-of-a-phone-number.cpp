@@ -15,14 +15,14 @@ class Solution {
         {'9', "wxyz"}
     };
 public:
-    void dfs(vector<string>& sol, string& curr, string& digits, int& n, int i) {
+    void generate(vector<string>& sol, string& curr, string& digits, int& n, int i) {
         if (i == n) {
             sol.push_back(curr);
             return;
         }
         for (int k = 0; k < letters[digits[i]].size(); k++) {
             curr.push_back(letters[digits[i]][k]);
-            dfs(sol, curr, digits, n, i+1);
+            generate(sol, curr, digits, n, i+1);
             curr.pop_back();
         }
     }
@@ -32,7 +32,7 @@ public:
         vector<string> sol;
         if (n == 0) return sol;
         string curr = "";
-        dfs(sol, curr, digits, n, 0);
+        generate(sol, curr, digits, n, 0);
         return sol;
     }
 };
