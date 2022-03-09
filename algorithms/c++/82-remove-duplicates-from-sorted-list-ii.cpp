@@ -35,6 +35,27 @@ public:
     }
 };
 
+
+class Solution2 {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode* front = new ListNode();
+        ListNode* curr = front;
+        while(head) {
+            if (head->next && head->val == head->next->val) {
+                while (head->next && head->val == head->next->val)
+                    head = head->next;
+            } else {
+                curr->next = head;
+                curr = curr->next;
+            }
+            head = head->next;
+        }
+        curr->next = nullptr;
+        return front->next;
+    }
+};
+
 int main() {
 
     return 0;
