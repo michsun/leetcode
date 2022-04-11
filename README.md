@@ -1,5 +1,3 @@
-# LeetCode Problems
+# [LeetCode](https://leetcode.com/problemset/algorithms/)
 
-| Problem | Difficulty | Language |
-| ---- | ----- | ---- | 
-|   
+This is a collection of my solutions to leetcode problems in mostly C++ and Python.
